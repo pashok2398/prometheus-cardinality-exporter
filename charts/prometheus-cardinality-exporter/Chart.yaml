@@ -9,9 +9,22 @@ keywords:
   - monitoring
   - cardinality
   - metrics
+  - observability
 home: https://github.com/thought-machine/prometheus-cardinality-exporter
 sources:
   - https://github.com/thought-machine/prometheus-cardinality-exporter
 maintainers:
   - name: thought-machine
     url: https://github.com/thought-machine
+icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/prometheus/icon/color/prometheus-icon-color.svg
+annotations:
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: |
+    - name: Documentation
+      url: https://github.com/thought-machine/prometheus-cardinality-exporter#readme
+    - name: Source
+      url: https://github.com/thought-machine/prometheus-cardinality-exporter
+  artifacthub.io/category: monitoring-logging
+  artifacthub.io/changes: |
+    - kind: added
+      description: Initial Helm chart release
