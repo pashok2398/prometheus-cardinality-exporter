@@ -1,3 +1,39 @@
 apiVersion: v1
-entries: {}
-generated: "2026-02-19T16:48:37Z"
+entries:
+  prometheus-cardinality-exporter:
+  - annotations:
+      artifacthub.io/category: monitoring-logging
+      artifacthub.io/changes: |
+        - kind: added
+          description: Initial Helm chart release
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Documentation
+          url: https://github.com/thought-machine/prometheus-cardinality-exporter#readme
+        - name: Source
+          url: https://github.com/thought-machine/prometheus-cardinality-exporter
+    apiVersion: v2
+    appVersion: latest
+    created: "2026-02-19T17:10:02.802194401Z"
+    description: A Helm chart for Prometheus Cardinality Exporter - monitors Prometheus
+      instances to expose metrics about high-cardinality metrics
+    digest: 07bdc51a71c8ae866b83e8e20f4b573ff30ba0b1f3cc3f0820951b571d7398f0
+    home: https://github.com/thought-machine/prometheus-cardinality-exporter
+    icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/prometheus/icon/color/prometheus-icon-color.svg
+    keywords:
+    - prometheus
+    - monitoring
+    - cardinality
+    - metrics
+    - observability
+    maintainers:
+    - name: thought-machine
+      url: https://github.com/thought-machine
+    name: prometheus-cardinality-exporter
+    sources:
+    - https://github.com/thought-machine/prometheus-cardinality-exporter
+    type: application
+    urls:
+    - https://github.com/pashok2398/prometheus-cardinality-exporter/releases/download/prometheus-cardinality-exporter-0.2.0/prometheus-cardinality-exporter-0.2.0.tgz
+    version: 0.2.0
+generated: "2026-02-19T17:10:02.802205302Z"
