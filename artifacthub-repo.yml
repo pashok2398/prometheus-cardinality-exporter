@@ -1,0 +1,6 @@
+# Artifact Hub repository metadata file
+# https://artifacthub.io/docs/topics/repositories/#helm-charts-repositories
+repositoryID: prometheus-cardinality-exporter
+owners:
+  - name: thought-machine
+    email: opensource@thoughtmachine.net
